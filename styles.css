@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.54;
+    text-align: center;
+}
+
+  .logo > img {
+    width: 80px;
+    height: 80px;
+    max-width: 300px;
+    display: flex;
+    padding: 5px;
+  }
+.project-img{
+    height: 400px;
+}
+#navbar{
+    background-color: white;
+    padding: 0rem 4rem;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100vw;
+}
+.tab{
+ padding: 0rem 4rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+}
+ul {
+    list-style: none;
+    display: flex
+  }
+  
+  #navbar ul a {
+    display: inline-block;
+    padding: 1.2rem 2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(200, 72, 94);
+  }
+ #navbar ul a:hover{
+    background-color:black;
+    color: pink;
+ }
+  .container{
+    max-width: 1200px;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+  }
+  #home{
+    height: 100vh;
+    background-color:black;
+  }
+  #home .container:hover{
+    background-color: pink;
+    color: black
+  }
+  #home .container{
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  #top{
+    color:rgb(200, 72, 94) ;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  #bottom{
+    font-size:1.5rem;
+    color: rgb(210, 130, 144);
+    font-weight: 100;
+  }
+  #caption{
+    color: rgb(145, 20, 63);
+    font-weight: bold;
+  }
+  #portfolio{
+text-align: center;
+width: 100%;
+padding: 7rem .1rem;
+background-color: #F98B88;
+}
+#portfolio .projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 3rem;
+    grid-column-gap: 2rem;
+    margin-top: 2rem;
+}
+#portfolio .projects .box{
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 3px;
+    position: flex;
+}
+#portfolio .projects .box p{
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: pink;
+}
+#portfolio .projects .box:hover p{
+    color: salmon
+}
+iframe {
+    max-width: 560px;
+    width: 100%;
+   margin-left: 500px;
+}
+#contact{
+height: 40vh;
+background-color: black;
+color: pink;
+}
+#contact .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30%;
+}
+form{
+    height: 70px;
+    width: 400px;
+    margin: 2% auto;
+    padding-top:15px ;
+    display: block;
+    text-align: center;
+}
+input{
+    margin: 2% block;
+    color:rgb(200, 72, 94);
+    border: none;
+    border-radius: 3px;
+}
+.login{
+    width: 100px;
+    background-color:white;
+    color: black;
+    font-weight: 900;
+}
+.login:hover{
+    color: pink;
+    background-color:rgb(200, 72, 94);
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 3rem;
+    grid-column-gap: 2rem;
+    margin-top: 2rem;
+    background-color: #F98B88;
+}
+.projects .box{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 3px;
+    position: flex;
+}
+.projects .box p{
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(175, 41, 90);
+}
+h1{
+    padding-top: 10px;
+    color:rgb(175, 41, 90);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  footer{  
+    color: rgb(128, 16, 57)
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+  a{
+    color:rgb(128, 16, 57);
+    text-decoration: none;
+  }
+.contact-info{
+    height: 5px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    color: white;
+}
